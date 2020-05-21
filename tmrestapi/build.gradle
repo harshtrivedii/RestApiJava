@@ -1,0 +1,5 @@
+apply plugin : 'java'
+dependencies{
+compile fileTree(dir:'c:/tomcat9/lib',include:'*.jar')
+compile fileTree(dir:'c:/Gson',include:'*.jar')
+}

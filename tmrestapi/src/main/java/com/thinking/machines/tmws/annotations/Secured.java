@@ -1,0 +1,8 @@
+package com.thinking.machines.tmws.annotations;
+import java.lang.annotation.*;
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE,ElementType.METHOD})
+public @interface Secured 
+{
+public Class guard() default Secured.class; 
+}
